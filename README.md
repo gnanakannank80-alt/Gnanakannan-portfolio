@@ -1,1 +1,216 @@
 # gnanakannan1.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gnanakannan | Portfolio</title>
+  <link rel="icon" href="download.jpg"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #38bdf8;
+      color: #0f172a;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #38bdf8;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+        .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .profile-img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <img src="gnana.jpeg" alt="My Photo" class="profile-img">
+    <h1>Hi, I'm Gnanakannan 👋</h1>
+    <p>Web Developer | Java Learner | Student</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate student learning modern web technologies like HTML, CSS, JavaScript and Java. 
+I love building clean and responsive websites.I am a Computer Science student with a strong interest in Web Development and Programming. 
+I have experience in HTML, CSS, JavaScript and Java, and I enjoy building clean, responsive 
+and user-friendly websites. I am a quick learner who is always eager to improve my skills 
+and work on real-world projects.
+
+  </p>
+</section>
+<section id="Area of interest">
+  <h2>Area of interest</h2>
+  <div class="Area of interest">
+    <div class="card">software developer</div><br><br>
+    <div class="card">java learning</div><br><br>
+    <div class="card">Web Development</div><br><br>
+    <div class="card">Artificial Intelligence & Machine Learning</div><br><br>
+    <div class="card">Data Science & Big Data</div><br><br>
+    <div class="card">Cyber Security</div><br><br>
+    <div class="card">Database Management</div><br><br>
+  </div>
+</section>
+
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Java</div>
+    <div class="card">GitHub</div>
+    <div class="card">python</div>
+    <div class="card">c programming</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">Portfolio Website</div>
+    <div class="card">gks acadamy website</div>
+    <div class="card">gnanus drawing website</div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="projects">
+    <div class="card"><img src="cci.jpeg" alt="Certificate 1" style="width:100%; border-radius:10px"></div>
+    <div class="card"><img src="naan.jpeg" alt="Certificate 2" style="width:100%; border-radius:10px"></div>
+    <div class="card"><img src="jai.jpeg" alt="Certificate 3" style="width:100%; border-radius:10px"></div>
+    <div class="card"><img src="al.jpeg" alt="Certificate 3" style="width:100%; border-radius:10px"></div>
+    
+    <div class="card"><img src="soft.jpeg" alt="Certificate 3" style="width:100%; border-radius:10px"></div>
+  </div>
+</section>
+
+<section>
+  <center>
+  <h2>Contact:  6385222106</h2>
+  <h3>Address:213/1b,perumal kovil street ,sirupooluvapatti,15 velampalayam ring road ,tiruppur-641603</h3>
+  <p style="text-align:center">Email: gnanakannank80@gmail.com</p>
+  </center>
+  <p>
+    <center>
+    
+
+    <a href="https://www.instagram.com/">INSTAGRAM |</a>
+    <a href="https://www.youtube.com/@gnanakannank80">YOUTUBE</a>
+    </center>
+</p>
+
+</section>
+
+
+<footer>
+  <p>© 2025 Gnanakannan | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
